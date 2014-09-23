@@ -39,5 +39,14 @@
             <to-view-id>/index.jsf</to-view-id>
         </navigation-case>
     </navigation-rule>
-    
+    <managed-bean>
+        <managed-bean-name>mailBean</managed-bean-name>
+        <managed-bean-class>com.losalpes.beans.MailBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>tiendaBean</managed-bean-name>
+        <managed-bean-class>com.losalpes.beans.TiendaBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
 </faces-config>
